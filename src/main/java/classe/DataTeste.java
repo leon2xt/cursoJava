@@ -11,13 +11,8 @@ package classe;
 public class DataTeste {
     public static void main(String[] args) {
         Data data1 = new Data();
-        Data data2 = new Data();
-        data1.dia = 05;
-        data2.dia = 17;
-        data1.mes = 06;
-        data2.mes = 04;
-        data1.ano = 1998;
-         data2.ano = 1967;
+        Data data2 = new Data(17,04,1967);
+
          
         System.out.printf("A data de Nascimento do Pablo é: %s \n",data1.obterDataFormatada());
         System.out.printf("A data de Nascimento da Beatriz é: %s ",data2.obterDataFormatada());

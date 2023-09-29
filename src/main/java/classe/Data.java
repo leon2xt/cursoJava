@@ -17,5 +17,15 @@ public class Data {
         String data = String.format("%d/%d/%d",dia,mes,ano );
             return data;
         }
-        
+       
+        Data(){
+        dia = 01;
+        mes = 01;
+        ano = 1970;
+        }
+        Data(int novoDia,int novoMes, int novoAno){
+            dia = novoDia;
+            mes = novoMes;
+            ano = novoAno;
+        }
 }
