@@ -12,4 +12,10 @@ public class Data {
         int dia;
         int mes;
         int ano;
+        
+        String obterDataFormatada(){
+        String data = String.format("%d/%d/%d",dia,mes,ano );
+            return data;
+        }
+        
 }

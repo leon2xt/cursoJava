@@ -19,7 +19,8 @@ public class DataTeste {
         data1.ano = 1998;
          data2.ano = 1967;
          
-        System.out.println("A data de Nascimento do Pablo é: " +data1.dia+"/"+data1.mes+"/"+data1.ano);
-        System.out.println("A data de Nascimento da Beatriz é: " +data2.dia+"/"+data2.mes+"/"+data2.ano);
+        System.out.printf("A data de Nascimento do Pablo é: %s \n",data1.obterDataFormatada());
+        System.out.printf("A data de Nascimento da Beatriz é: %s ",data2.obterDataFormatada());
+
     }
 }
